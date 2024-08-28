@@ -6,12 +6,13 @@ body, html {
     height: 100%;
     overflow: hidden;
     font-family: Arial, sans-serif;
+    background-color: black;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    height: 300%;
+    height: 300vh;
     transform-style: preserve-3d;
     transition: transform 1s;
 }
